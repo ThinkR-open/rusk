@@ -7,7 +7,7 @@ The goal of rusk is to show a nice representation of multiplication table
 
 <img src="inst/preview_100.gif" width="400px" />
 
-<img src="inst/preview_t9.gif" width="400px" />
+<img src="inst/preview_t9.gif" width="400px" /> <img src="inst/preview_t21.gif" width="400px" />
 
 Installation
 ------------
