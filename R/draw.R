@@ -17,11 +17,7 @@ draw <- function(table=2,modulo=10){
     gen_droites() %>%
     plot.droites() +#ggthemes::theme_solid()
     ggtitle(paste("table ",table, "modulo ", modulo))+
-    theme(line = element_blank(),   text = element_text(family = "Verdana", face = "bold",
-                                                        colour = "black", size = 14,
-                                                        lineheight = 0.9,  hjust = 0.5,
-                                                        vjust = 0.5, angle = 0,
-                                                        margin = margin(), debug = FALSE),
+    theme(line = element_blank(),
           rect = element_rect(fill = NA, size = 12, colour = NA, linetype = 0),
           panel.background = element_rect(fill = NA),
           axis.title.x = element_blank(),
@@ -29,7 +25,7 @@ draw <- function(table=2,modulo=10){
           axis.text.x = element_blank(),
           axis.text.y = element_blank(),
           strip.background = element_blank(),
-          complete = TRUE,tit)
+          complete = TRUE)
 
 
 }

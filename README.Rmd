@@ -28,7 +28,7 @@ devtools::install_github("ThinkR-open/nicetable")
 ## Example
 
 
-```{r example}
+```{r example, message=FALSE, warning=FALSE}
 library(nicetable)
 draw(table = 2, modulo = 10)
 draw(table = 2, modulo = 100)
