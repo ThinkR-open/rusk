@@ -9,7 +9,7 @@ ui <- fluidPage(
                      "table",
                      min = 1,
                      max = 50,
-                     value = 3,step = 0.1)
+                     value = 3,step = 1)
 ,
         sliderInput("modulo",
                     "modulo",

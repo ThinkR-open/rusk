@@ -27,7 +27,7 @@ devtools::install_github("ThinkR-open/nicetable")
 
 ## Example
 
-
+### Using `draw` function
 ```{r example, message=FALSE, warning=FALSE}
 library(nicetable)
 draw(table = 2, modulo = 10)
@@ -35,3 +35,10 @@ draw(table = 2, modulo = 100)
 draw(table = 2, modulo = 500)
 draw(table = 7, modulo = 250)
 ```
+
+
+### Using the shiny app
+```{r}
+nicetable::draw_app()
+```
+

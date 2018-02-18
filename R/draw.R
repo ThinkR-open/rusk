@@ -13,6 +13,9 @@
 #' draw(table=10,modulo = 250)
 draw <- function(table=2,modulo=10){
 
+  table <- round(table)
+  modulo <- round(modulo)
+
   gen_points(table=table,modulo=modulo) %>%
     gen_droites() %>%
     plot.droites() +#ggthemes::theme_solid()
