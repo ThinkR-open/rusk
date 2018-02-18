@@ -23,6 +23,10 @@ The goal of nicetable is to show a nice representation of multiplication table
 knitr::include_graphics("inst/preview_100.gif")
 ```
 
+```{r, out.width = "400px",echo = FALSE}
+knitr::include_graphics("inst/preview_t9.gif")
+```
+
 
 ## Installation
 
