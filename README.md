@@ -1,9 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-nicetable
-=========
+rusk
+====
 
-The goal of nicetable is to show a nice representation of multiplication table
+The goal of rusk is to show a nice representation of multiplication table
 
 <img src="inst/preview_100.gif" width="400px" />
 
@@ -12,11 +12,11 @@ The goal of nicetable is to show a nice representation of multiplication table
 Installation
 ------------
 
-You can install nicetable from github with:
+You can install rusk from github with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("ThinkR-open/nicetable")
+devtools::install_github("ThinkR-open/rusk")
 ```
 
 Example
@@ -25,7 +25,7 @@ Example
 ### Using `draw` function
 
 ``` r
-library(nicetable)
+library(rusk)
 draw(table = 2, modulo = 10)
 ```
 
@@ -49,8 +49,14 @@ draw(table = 7, modulo = 250)
 
 ![](README-example-4.png)
 
+``` r
+draw(table = 21, modulo = 500)
+```
+
+![](README-example-5.png)
+
 ### Using the shiny app
 
 ``` r
-nicetable::draw_app()
+rusk::draw_app()
 ```

@@ -1,5 +1,5 @@
-Package: nicetable
-Title: Decimal Multiplication Tables On a Modular Circle 
+Package: rusk
+Title: Multiplication Tables On a Modular Circle 
 Version: 0.1
 Authors@R: person("Vincent", "Guyader", email = "vincent@thinr.fr", role = c("aut", "cre"))
 Description: Beautiful graphical representation of multiplication tables.

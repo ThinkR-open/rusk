@@ -12,9 +12,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-# nicetable
+# rusk
 
-The goal of nicetable is to show a nice representation of multiplication table
+The goal of rusk is to show a nice representation of multiplication table
 
 
 
@@ -30,27 +30,28 @@ knitr::include_graphics("inst/preview_t9.gif")
 
 ## Installation
 
-You can install nicetable from github with:
+You can install rusk from github with:
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
-devtools::install_github("ThinkR-open/nicetable")
+devtools::install_github("ThinkR-open/rusk")
 ```
 
 ## Example
 
 ### Using `draw` function
 ```{r example, message=FALSE, warning=FALSE}
-library(nicetable)
+library(rusk)
 draw(table = 2, modulo = 10)
 draw(table = 2, modulo = 100)
 draw(table = 2, modulo = 500)
 draw(table = 7, modulo = 250)
+draw(table = 21, modulo = 500)
 ```
 
 
 ### Using the shiny app
 ```{r eval=FALSE}
-nicetable::draw_app()
+rusk::draw_app()
 ```
 
