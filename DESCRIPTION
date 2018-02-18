@@ -15,3 +15,5 @@ Imports: dplyr,
     ggthemes,
     ggforce,
     shiny
+URL: https://github.com/ThinkR-open/rusk
+BugReports: https://github.com/ThinkR-open/rusk/issues
