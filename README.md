@@ -5,6 +5,8 @@ nicetable
 
 The goal of nicetable is to show a nice representation of multiplication table
 
+<img src="inst/preview_100.gif" width="400px" />
+
 Installation
 ------------
 
@@ -17,6 +19,8 @@ devtools::install_github("ThinkR-open/nicetable")
 
 Example
 -------
+
+### Using `draw` function
 
 ``` r
 library(nicetable)
@@ -42,3 +46,9 @@ draw(table = 7, modulo = 250)
 ```
 
 ![](README-example-4.png)
+
+### Using the shiny app
+
+``` r
+nicetable::draw_app()
+```

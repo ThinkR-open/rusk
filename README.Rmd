@@ -16,6 +16,14 @@ knitr::opts_chunk$set(
 
 The goal of nicetable is to show a nice representation of multiplication table
 
+
+
+
+```{r, out.width = "400px",echo = FALSE}
+knitr::include_graphics("inst/preview_100.gif")
+```
+
+
 ## Installation
 
 You can install nicetable from github with:
@@ -38,7 +46,7 @@ draw(table = 7, modulo = 250)
 
 
 ### Using the shiny app
-```{r}
+```{r eval=FALSE}
 nicetable::draw_app()
 ```
 

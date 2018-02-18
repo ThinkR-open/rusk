@@ -1,9 +1,10 @@
 library(magick)
+
 library(ggplot2)
-img <- image_graph(600, 340, res = 96)
-seq(2,5,by = 0.05) %>% purrr::map(draw)
+img <- image_graph(400, 400, res = 96)
+seq(2,3,by = 1) %>% purrr::map(draw,modulo=100)
 dev.off()
-animation <- image_animate(img, fps = 2)
+animation <- image_animate(img, fps = 1)
 print(animation)
-draw(2.5,modulo = 10)
-draw(2.55,modulo = 10)
+
+
