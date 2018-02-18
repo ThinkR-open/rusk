@@ -13,4 +13,5 @@ Imports: dplyr,
     tidyr,
     reshape2,
     ggthemes,
-    ggforce
+    ggforce,
+    shiny
