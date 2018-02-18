@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# nicetable
+
+The goal of nicetable is to show a nice representation of multiplication table
+
+## Installation
+
+You can install nicetable from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("ThinkR-open/nicetable")
+```
+
+## Example
+
+
+```{r example}
+library(nicetable)
+draw(table = 2, modulo = 10)
+draw(table = 2, modulo = 100)
+draw(table = 2, modulo = 500)
+draw(table = 7, modulo = 250)
+```
