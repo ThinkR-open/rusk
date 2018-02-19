@@ -45,7 +45,7 @@ devtools::install_github("ThinkR-open/rusk")
 ### Using `draw` function
 ```{r example, message=FALSE, warning=FALSE}
 library(rusk)
-draw(table = 2, modulo = 10)
+draw(table = 2, modulo = 10,label = TRUE)
 draw(table = 2, modulo = 100)
 draw(table = 2, modulo = 500)
 draw(table = 7, modulo = 250)

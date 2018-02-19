@@ -26,7 +26,7 @@ Example
 
 ``` r
 library(rusk)
-draw(table = 2, modulo = 10)
+draw(table = 2, modulo = 10,label = TRUE)
 ```
 
 ![](README-example-1.png)
@@ -60,3 +60,8 @@ draw(table = 21, modulo = 500)
 ``` r
 rusk::draw_app()
 ```
+
+TODO
+====
+
+allow decimal table
