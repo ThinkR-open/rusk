@@ -58,3 +58,6 @@ draw(table = 21, modulo = 500)
 rusk::draw_app()
 ```
 
+# TODO
+
+allow decimal table

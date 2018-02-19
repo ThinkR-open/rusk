@@ -3,3 +3,8 @@
 ^data-raw$
 ^README\.Rmd$
 ^README-.*\.png$
+^inst/preview_10\.gif$
+^inst/preview_100\.gif$
+^inst/preview_mini\.gif$
+^inst/preview_t21\.gif$
+^inst/preview_t9\.gif$

@@ -4,12 +4,14 @@
 \alias{draw}
 \title{Beautiful graphical representation of multiplication tables}
 \usage{
-draw(table = 2, modulo = 10)
+draw(table = 2, modulo = 10, label = FALSE)
 }
 \arguments{
-\item{table}{which muliplication table to plot}
+\item{table}{muliplication table to plot}
 
 \item{modulo}{number of points to use}
+
+\item{label}{show number label}
 }
 \value{
 a ggplot

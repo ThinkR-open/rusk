@@ -1,7 +1,7 @@
 Package: rusk
 Title: Multiplication Tables On a Modular Circle 
 Version: 0.1
-Authors@R: person("Vincent", "Guyader", email = "vincent@thinr.fr", role = c("aut", "cre"))
+Authors@R: person("Vincent", "Guyader", email = "vincent@thinkr.fr", role = c("aut", "cre"))
 Description: Beautiful graphical representation of multiplication tables.
 Depends: R (>= 3.4.2)
 License: GPL-3
