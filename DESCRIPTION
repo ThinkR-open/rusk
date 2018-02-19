@@ -12,7 +12,6 @@ Imports: dplyr,
     ggplot2,
     tidyr,
     reshape2,
-    ggthemes,
     ggforce,
     shiny
 URL: https://github.com/ThinkR-open/rusk

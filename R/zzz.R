@@ -1,4 +1,14 @@
-globalVariables(c(".","depart",
-
-                  "group", "variable", "x", "x_depart", "x_destination", "y"
-                  ))
+globalVariables(
+  c(
+    ".",
+    "depart",
+    "group",
+    "variable",
+    "x",
+    "x_depart",
+    "x_destination",
+    "y",
+    "y_depart",
+    "y_destination"
+  )
+)
