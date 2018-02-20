@@ -5,6 +5,10 @@ rusk
 
 The goal of rusk is to show a nice representation of multiplication table
 
+<iframe width="320" height="200" src="http://www.youtube.com/embed/qhbuKbxJsk8?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+<iframe width="320" height="200" src="http://www.youtube.com/embed/-X49VQgi86E?rel=0" frameborder="0" allowfullscreen>
+</iframe>
 <img src="inst/preview_100.gif" width="400px" />
 
 <img src="inst/preview_t9.gif" width="400px" /> <img src="inst/preview_t21.gif" width="400px" />

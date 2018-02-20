@@ -20,7 +20,8 @@ a ggplot
 Beautiful graphical representation of multiplication tables
 }
 \examples{
-draw(table=2,modulo = 50)
+draw(table=2,modulo = 10, label=TRUE)
+draw(table=2,modulo = 50, label=FALSE)
 draw(table=2,modulo = 250)
 draw(table=10,modulo = 250)
 }
