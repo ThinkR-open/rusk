@@ -7,7 +7,7 @@ The goal of rusk is to show a nice representation of multiplication table
 
 Explanations :
 
-[![Explanation in English](https://i.imgur.com/UEn6VDy.png)](http://www.youtube.com/embed/qhbuKbxJsk8?rel=0)[![Explanation in French](https://i.imgur.com/60U0Qn5.jpg)](http://www.youtube.com/embed/qhbuKbxJsk8?rel=0)
+[![Explanation in English](https://i.imgur.com/UEn6VDy.png)](http://www.youtube.com/embed/qhbuKbxJsk8?rel=0)[![Explanation in French](https://i.imgur.com/60U0Qn5.jpg)](http://www.youtube.com/embed/-X49VQgi86E?rel=0)
 
 <img src="inst/preview_100.gif" width="400px" />
 
