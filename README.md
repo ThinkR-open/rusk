@@ -18,6 +18,13 @@ Explanations :
 Installation
 ------------
 
+You can install rusk from CRAN with:
+
+``` r
+# install.packages("devtools")
+install.packages("rusk")
+```
+
 You can install rusk from github with:
 
 ``` r
