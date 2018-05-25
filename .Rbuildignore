@@ -9,3 +9,4 @@
 ^inst/preview_t21\.gif$
 ^inst/preview_t9\.gif$
 ^README\.md$
+^\.travis\.yml$
