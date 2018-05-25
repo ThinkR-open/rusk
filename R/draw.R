@@ -29,8 +29,7 @@ draw <- function(table=2,modulo=10,label=FALSE){
           axis.title.y = element_blank(),
           axis.text.x = element_blank(),
           axis.text.y = element_blank(),
-          strip.background = element_blank(),
-          complete = TRUE)
+          strip.background = element_blank())
 
 
 }

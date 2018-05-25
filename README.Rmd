@@ -42,6 +42,13 @@ knitr::include_graphics("inst/preview_t21.gif")
 
 ## Installation
 
+You can install rusk from CRAN with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+install.packages("rusk")
+```
+
 You can install rusk from github with:
 
 ```{r gh-installation, eval = FALSE}

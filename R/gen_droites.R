@@ -5,7 +5,7 @@ gen_droites <- function(points){
 
   points %>%
     left_join(points,by=c("destination" = "depart"),suffix=c("_depart","_destination")) %>%
-    filter(depart_depart != nrow(.)) %>%
+    filter(depart != nrow(.)) %>%
     select(x_depart,y_depart,x_destination,y_destination) %>%
     mutate(group = seq_len(nrow(.)),
            group =as.factor(group)
